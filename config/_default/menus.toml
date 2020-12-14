@@ -1,0 +1,53 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "Home"
+  url = "#about"
+  weight = 10
+
+[[main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 20
+
+
+
+[[main]]
+    name = "Curriculum"
+    url = "https://www.linkedin.com/in/andrea-pollini-024288160/"
+    weight = 70
+
+[[main]]
+    name = "Youtube"
+    url = "http://bit.ly/AndreaPolliniYT"
+    weight = 160
+
+[[main]]
+  name = "Esercizi di Programmazione"
+  url = "/esercizi"
+  weight = 35
+
+[[main]]
+  parent = "Esercizi di Programmazione"
+  name = "Esercizi Programmazione in C++"
+  url="/esercizi-c++/"
+
+[[main]]
+  parent = "Esercizi di Programmazione"
+  name = "Esercizi Programmazione in C"
+  url = "/esercizi-c/"
+
+[[main]]
+  parent = "Esercizi di Programmazione"
+  name = "Esercizi Programmazione in Python"
+  url = "/esercizi-python/"
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "media/cv.pdf"
+#    weight = 70
